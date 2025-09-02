@@ -15,7 +15,7 @@ function Top() {
   return (
     <main style={bgimage} className="rounded-t-xl mt-2 ml-2 mr-2">
       <Taskbar />
-      <div className=" w-full h-[350px] md:h-[550px]  ">
+      <div className=" w-full h-[370px] md:h-[550px]  ">
         <div className="flex justify-center items-center mt-[100px] ml-16">
           <motion.div
             initial={{ opacity: 1 }}
@@ -46,7 +46,7 @@ function Top() {
               <h1 className="pl-5 md:pl-0">growth with Compatible</h1>
               <h1 className="pl-32 md:pl-64"> individuals </h1>
             </motion.div>
-            <div className="absolute top-[430px] md:top-[587px] right-[180px] md:right-[400px]">
+            <div className="absolute top-[430px] md:top-[587px] right-[180px] md:right-[320px]">
               <motion.button
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}

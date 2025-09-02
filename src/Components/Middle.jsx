@@ -53,7 +53,7 @@ function Middle() {
               duration: 0.5,
             }}
              viewport={{ once: true, amount: 0.6 }}
-            className="font-inter text-xl md:text-5xl items-center mt-12  md:mt-0 md:ml-80 md:mb-24"
+            className="font-inter text-xl md:text-5xl items-center mt-12  md:mt-0 md:ml-52 md:mb-24"
           >
             <h1>Multiply Your Output With the Power of Collaboration </h1>
           </motion.div>
@@ -120,7 +120,7 @@ function Middle() {
                 duration: 0.5,
               }}
                viewport={{ once: true, amount: 0.6 }}
-              className="font-inter text-xl md:text-5xl items-center ml-6 md:ml-[550px] mt-24"
+              className="font-inter text-xl md:text-5xl items-center ml-6 md:ml-[340px] mt-24"
             >
               <h1>The fastest Way to Grow your Connection </h1>
             </motion.div>
@@ -187,7 +187,7 @@ function Middle() {
               duration: 0.5,
             }}
              viewport={{ once: true, amount: 0.6 }}
-            className="font-inter text-xl md:text-5xl md:ml-[300px] mt-24"
+            className="font-inter text-xl md:text-5xl md:ml-[150px] mt-24"
           >
             <h1>Seamlessly expand your reach with continuous updates</h1>
             <h1 className="ml-40 md:ml-[350px] mt-2 md:mt-6">that drive efficiency. </h1>
@@ -235,7 +235,7 @@ function Middle() {
             duration: 0.5,
           }}
            viewport={{ once: true, amount: 0.6 }}
-          className="font-inter text-xl md:text-6xl ml-7 md:ml-[400px] mt-12 md:mt-24 font-bold "
+          className="font-inter text-xl md:text-6xl ml-7 md:ml-[280px] mt-12 md:mt-24  "
         >
           <h1>Scale faster with dedicated support</h1>
         </motion.div>

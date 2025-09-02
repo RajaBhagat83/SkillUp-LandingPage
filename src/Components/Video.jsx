@@ -21,7 +21,7 @@ function Video() {
         duration:1,
         ease:"easeOut"
       }}
-        className="flex justify-center items-center h-[300px] md:h-[500px] ml-[100px] md:ml-[550px]  mt-96 md:mt-28 w-[300px] md:w-[700px] "
+        className="flex justify-center items-center h-[300px] md:h-[470px] ml-[100px] md:ml-[550px]  mt-96 md:mt-28 w-[300px] md:w-[700px] "
         autoPlay
         loop
         muted
@@ -36,7 +36,7 @@ function Video() {
        transition={{
         delay:3
        }}
-      className="absolute bottom-3 right-2 text-white text-2xl pr-[650px] pb-7 font-inter">
+      className="absolute bottom-0 right-16 text-white text-2xl pr-[420px] font-inter">
         <span className="text-yellow-500 ">Search People</span><span> with Similar Interest </span><h1 className="pl-24"> and connect easily</h1>
       </motion.div>
     
