@@ -14,14 +14,14 @@ function Video() {
       className="h-[600] w-[600px]  rounded-2xl"
     >
       <motion.video
-      initial={{opacity:1,y:0}}
+      initial={{opacity:1,y:1}}
       animate={{opacity:1,y:-600}}
       transition={{
         delay:2,
         duration:1,
         ease:"easeOut"
       }}
-        className="flex justify-center items-center h-[500px] ml-[550px] mt-28 w-[700px]"
+        className="flex justify-center items-center h-[300px] md:h-[500px] ml-[100px] md:ml-[550px]  mt-96 md:mt-28 w-[300px] md:w-[700px] "
         autoPlay
         loop
         muted

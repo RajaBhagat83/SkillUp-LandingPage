@@ -21,9 +21,9 @@ function Bottom() {
         ease: "easeIn",
       }}
        viewport={{ once: true, amount: 0.6 }}
-      className="h-[550px] w-full bg-[#7b6b6b]"
+      className=" h-[400px] md:h-[550px] w-full bg-[#7b6b6b] mt-48 md:mt-0"
     >
-      <div className="text-white text-xl flex">
+      <div className="text-white text-lg md:text-xl flex">
         <Footer
           heading="About us"
           h1={"Our story"}
@@ -47,9 +47,9 @@ function Bottom() {
         />
       </div>
       <div>
-        <h1 className="w-[1300px] h-[1px] bg-white ml-44 "></h1>
+        <h1 className="w-[500px] md:w-[1300px] h-[1px] bg-white md:ml-44 ml-6"></h1>
       </div>
-      <div className="">
+      <div>
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity:1, y: 0 }}
@@ -60,13 +60,13 @@ function Bottom() {
             ease: "easeIn",
           }}
            viewport={{ once: true, amount: 0.6 }}
-          className="ml-80 mt-7 flex "
+          className="md:ml-80 ml-3 mt-7 md:flex "
         >
-          <h1 className="text-white">
+          <h1 className="text-white w-[480px] md:w-0 ">
             Terms and conditions | Terms of Use | Privacy Policy | Do Not Sell
             Or Share My Personal Information | Cookie Policy | © Universe 2025
           </h1>
-          <div className=" flex  gap-5 ml-12">
+          <div className=" flex gap-12 md:gap-5 ml-12 mt-12 md:mt-0">
             <FaTwitter size={20} />
             <FaFacebookF size={20} />
             <FaInstagram size={20} />
