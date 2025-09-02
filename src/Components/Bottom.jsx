@@ -62,11 +62,11 @@ function Bottom() {
            viewport={{ once: true, amount: 0.6 }}
           className="md:ml-80 ml-3 mt-7 md:flex "
         >
-          <h1 className="text-white w-[480px] md:w-0 ">
+          <h1 className="text-white w-[480px] md:w-full">
             Terms and conditions | Terms of Use | Privacy Policy | Do Not Sell
             Or Share My Personal Information | Cookie Policy | © Universe 2025
           </h1>
-          <div className=" flex gap-12 md:gap-5 ml-12 mt-12 md:mt-0">
+          <div className=" flex gap-12 md:gap-5 ml-12 mt-12 md:mt-0 md:mr-48">
             <FaTwitter size={20} />
             <FaFacebookF size={20} />
             <FaInstagram size={20} />
