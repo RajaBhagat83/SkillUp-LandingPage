@@ -1,5 +1,5 @@
 import React from "react";
-import DemoVideo from "../assets/DemoVideo.mp4";
+import demovideo from "../assets/demovideo.mp4";
 import { motion } from "framer-motion";
 
 function Video() {
@@ -27,7 +27,7 @@ function Video() {
         muted
         playsInline
       >
-        <source src={DemoVideo} type="video/mp4" />
+        <source src={demovideo} type="video/mp4" />
    
       </motion.video>
       <motion.div 
